@@ -1,0 +1,14 @@
+$icons: sprite-map("/images/sprites/idp-*.jpeg");
+
+#tuti-twitter,#tuti-facebook {
+}
+
+#tuti-twitter {
+width:200px;
+height:200px;
+background-position: sprite-position($icons, "idp-facebook", 100%);
+}
+#tuti-facebook {
+width:200px;
+height:200px;
+}
